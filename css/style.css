@@ -1,0 +1,310 @@
+.top {
+  display: inline;
+  font-size: 1.3rem;
+ 
+}
+
+.navbar {
+  min-width: 100%;
+  border: solid rgba(0,0,0,0);
+  background-color: rgba(100,100,100,0.9);
+   
+} 
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}  
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: orange;
+}
+.cont{
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	/* Set up proportionate scaling */
+  width: 100%;
+  /* Set up positioning */
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.backg {
+  width: 100%;
+  box-shadow: 1px 48px 15px rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+.container {
+  width: 52.5%;
+  height: 31.5%;
+  top: 44.5%;
+  left: 22%;
+  z-index: 2;
+  position: absolute;
+ }
+.screensaver {
+  text-align: center;
+  top: 50%;
+  
+  position: absolute;
+  color: lightgray;
+}
+.fa-pulse {
+  position: absolute;
+  top: 40%;
+  left: 48%;
+  color: lightgray;
+}
+
+.myPortfolio {
+  width: 100%;
+  margin-top: 15%;
+}
+.btn {
+  position: relative;
+  left: 35%;
+  top: 5%;
+}
+.headline {
+  padding: 5%;
+  text-align: center;
+  color: rgb(50,50,155);
+  margin-top: 2%;
+}
+
+.contain {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: -10%; 
+}
+
+  
+
+
+.ysticker, .gsticker, .osticker, .bsticker, .psticker {
+  font-family: 'Permanent Marker', cursive;
+  padding-top: 70px;
+  margin-top: -70px;
+  position: absolute;
+  z-index: 3;
+  
+}
+p {
+  font-size: 1.5rem;
+}
+
+#myPhoto {
+  position: absolute;
+  z-index: 4;
+  top: 100%;
+  left: 460%;
+  width: 130%;
+  box-shadow: 1px 8px 5px rgba(0, 0, 0, 0.5);    
+}
+#tape {
+  position: absolute;
+  z-index: 4;
+  top: 85%;
+  left: 440%;
+}
+
+
+.ysticker {
+  width: 120%;
+  top: 70%;
+  left: 120%;
+  
+}
+
+.ysticker > img {
+  width: 112%;
+}
+
+.ysticker > p {
+  position: absolute;
+  top: 52%;
+  left: 22%;  
+}  
+
+.ysticker > h2 {
+  position: absolute;
+  top: 65%;
+  left: 40%;
+  
+}
+
+.gsticker {
+  width: 120%;
+  top: 90%;
+  left: 280%;
+  
+  
+}
+
+.gsticker > img {
+  width: 112%;
+}
+
+.gsticker > h3 {
+  position: absolute;
+  top: 42%;
+  left: 25%;
+  text-align: center;
+}
+#p1 {
+  position: absolute;
+  top: 33.5%;
+  left: 20%;
+  text-align: center;
+}
+#p2 {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  text-align: center;
+}
+
+.osticker {
+  width: 120%;
+  top: 100%;
+  left: 630%;
+ 
+}
+
+.osticker > img {
+  width: 107%;
+}
+
+.myTools {
+  position: absolute;
+  top: 46%;
+  left: 25%;
+  font-size: 1.3rem; 
+  
+}
+
+.osticker > p {
+  position: absolute;
+  top: 35%;
+  left: 28%;
+}
+
+.bsticker {
+  width: 120%;
+  top: 250%;
+  left: 480%;
+  
+}
+
+.bsticker > img {
+  width: 110%;
+}
+.bsticker > h3 {
+  position: absolute;
+  top: 40%;
+  left: 28%;
+  
+}
+
+.bsticker > p {
+  position: absolute;
+  top: 52%;
+  left: 25%;
+  text-align: center;
+  
+}
+
+.psticker {
+  width: 120%;
+  left: 280%;
+  top: 240%;
+}
+
+.psticker > img {
+  width: 110%;
+}
+
+.psticker > h3 {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+.psticker > ul {
+  position: absolute;
+  top: 43%;
+  left: 15%;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+.psticker > p {
+  position: absolute;
+  top: 76%;
+  left: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+              
+  .contain {
+    width: 140px;
+  height: 140px;
+    left: -15%;
+    top: ;
+  }
+  .col-xs-4, .col-md-4 {
+      width: 32%;
+      padding: 0;
+      margin: 1.8px;
+    }
+}
+  @media only screen and (max-width: 768px) and (orientation: portrait){
+    .cont {
+      left: -25%;
+         
+    }
+   .ysticker {
+      left: 25%;
+    }
+   .gsticker {
+      left: 155%;
+    }
+    #myPhoto {
+      left: 315%;
+    }
+    #tape {
+      left: 300%;
+    }
+    .osticker {
+      left: 440%;
+    }
+    .psticker {
+      left: 155%;
+    }
+    .bsticker {
+      left: 315%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (orientation:landscape) {
+    .ysticker {
+      left: 115%;
+    }
+   .gsticker {
+      left: 255%;
+    }
+    #myPhoto {
+      left: 435%;
+    }
+    #tape {
+      left: 410%;
+    }
+    .osticker {
+      left: 570%;
+    }
+    .bsticker {
+      left: 425%;
+      top: 220%;
+    }
+    .psticker {
+      top: 210%;
+  }
+}
